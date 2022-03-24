@@ -23,8 +23,8 @@ copy_dirPath_list = ['Projects/B-L4S5I-IOT01A/Applications/FLASH_OptionBytes',
 for dirPath in copy_dirPath_list:
   try:
       if not os.path.exists('../'+dirPath):
-        print("Copy: " + dirPath + '  to ../'+dirPath)
-        shutil.copytree(dirPath, '../'+dirPath)
+        print("Move: " + dirPath + '  to ../'+dirPath)
+        shutil.move(dirPath, '../'+dirPath)
   except OSError as e:
       print(f"Error:{ e.strerror}")
 

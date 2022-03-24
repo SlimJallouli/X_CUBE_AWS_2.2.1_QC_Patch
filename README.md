@@ -58,8 +58,8 @@ Prepare X_CUBE_AWS2.2.1 For Quick Connect using the [B-L4S5I-IOT01A](https://www
 > 
 > 4- aws_demos
 
-- Switch to ***STM32CubeExpansion_Cloud_AWS_V2.2.1\STM32_AWS_QuickConnect***
+- Switch to ***STM32CubeExpansion_Cloud_AWS_V2.2.1\STM32_AWS_QuickConnect*** directory
 
 ![STM32_AWS_QuickConnect](https://user-images.githubusercontent.com/41168224/160022982-bb8a70a8-86e4-4ef6-947a-cc4e9b866fa6.png)
 
-- Go to **STM32_AWS_QuickConnect** and folow the [readme.txt](https://github.com/SlimJallouli/X_CUBE_AWS_2.2.1_QC_Patch/blob/main/STM32_AWS_QuickConnect/readme.txt)
+- Folow the [readme.txt](https://github.com/SlimJallouli/X_CUBE_AWS_2.2.1_QC_Patch/blob/main/STM32_AWS_QuickConnect/readme.txt)

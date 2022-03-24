@@ -66,6 +66,7 @@ def main():
     # Flashing provisioning
     print("Provisioning STSafe\n")
     flash_board(stsafe, USBPATH, COM)
+    time.sleep(5)
 
     # Configure EEPROM
     #print("Updating EEPROM \n")

@@ -1,0 +1,40 @@
+E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\X-CUBE-AWS_2.0.0\BrowseInfo\Drivers\STM32L4xx_HAL_Driver\stm32l4xx_hal_tim.pbi: \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\Inc\stm32l4xx_hal_conf.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_def.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4s5xx.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Include\core_cm4.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\DLib_Config_Full.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\DLib_Product.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_iccarm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\aarch32\iccarm_builtin.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv7.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\stddef.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0_2\arm\inc\c\ysizet.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc_ex.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio_ex.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_dma.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_dma_ex.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_cortex.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_exti.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_flash.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_flash_ex.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_flash_ramfunc.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_i2c.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_i2c_ex.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_pwr.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_pwr_ex.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_uart.h \
+  E:\X-CUBE-AWS_2.0.0_QC_2021_10_08\Projects\B-L4S5I-IOT01A\Applications\FLASH_OptionBytes\EWARM\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_uart_ex.h

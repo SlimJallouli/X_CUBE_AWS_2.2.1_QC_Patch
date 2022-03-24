@@ -32,6 +32,10 @@ Prepare X_CUBE_AWS2.2.1 For Quick Connect using the [B-L4S5I-IOT01A](https://www
 ![open_aws_clientcredential](https://user-images.githubusercontent.com/41168224/160010829-7975ba75-b4e6-43e7-bc99-d87f38441925.png)
 ![open_declaration](https://user-images.githubusercontent.com/41168224/160021076-87920f35-59e8-4706-abec-53f098ff4094.png)
 
+- Get your enpoint from AWS IoT Core
+
+![endpoint](https://user-images.githubusercontent.com/41168224/160027913-4240a649-f2e1-4e44-bcee-15feb07700a3.png)
+
 - Edit **aws_clientcredential.h**
 ```
 #define clientcredentialMQTT_BROKER_ENDPOINT         "xzy-ats.iot.us-east-2.amazonaws.com"

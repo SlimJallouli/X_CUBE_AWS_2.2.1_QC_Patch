@@ -7,7 +7,7 @@ Prepare X_CUBE_AWS2.2.1 For Quick connect
 
 - Navigate to **X_CUBE_AWS_2.2.1_QC_Patch**
 - run Python **apply_patch.py**
-- Open STMM32CubeIDE new work space
+- Open STM32CubeIDE new work space
 - Import the projects present in the **\Projects\B-L4S5I-IOT01A\Applications** directory
 
 - Open **aws_clientcredential.h** and edit the folowing

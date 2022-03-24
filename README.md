@@ -1,5 +1,5 @@
 # X_CUBE_AWS_2.2.1 Quick Connect
-Prepare X_CUBE_AWS2.2.1 For Quick Connect for the [B-L4S5I-IOT01A](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) board
+Prepare X_CUBE_AWS2.2.1 For Quick Connect using the [B-L4S5I-IOT01A](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) board
 
 ***Make seure to use [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) rev 1.8.0***
 

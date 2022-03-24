@@ -25,6 +25,7 @@ for dirPath in copy_dirPath_list:
       if not os.path.exists('../'+dirPath):
         print("Move: " + dirPath + '  to ../'+dirPath)
         shutil.move(dirPath, '../'+dirPath)
+        shutil.rmtree(dirPath)
   except OSError as e:
       print(f"Error:{ e.strerror}")
 
@@ -41,4 +42,4 @@ for srcFile in copy_file_list:
       print("Copy file: " + srcFile +" to " + dst_file)
       shutil.copyfile(srcFile, dst_file)
   except OSError as e:
-      print(f"Error:{ e.strerror}")      
+      print(f"Error:{ e.strerror}")

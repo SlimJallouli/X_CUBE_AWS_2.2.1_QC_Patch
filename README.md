@@ -188,3 +188,13 @@ python .\STM32_AWS_QuickConnect.py
 ## Check your device in AWS IoT Core
 
 ![check_device_iot_core](https://user-images.githubusercontent.com/41168224/160038221-6b8f3d7b-9d2a-45e2-b265-21ea7167b657.png)
+
+## Cleaning up
+
+- STM32_AWS_CleanupThing.py:: Removes thing created by STM32_AWS_QuickConnect.py and associated certificate and policy.
+
+- Navigate to ..\STM32_AWS_QuickConnect\Scripts\ and run **STM32_AWS_QuickConnect.py**.
+
+- When prompted, enter the **IOT_THING_NAME** of the desired board.
+
+- Monitor the command window to verify the process finishes.

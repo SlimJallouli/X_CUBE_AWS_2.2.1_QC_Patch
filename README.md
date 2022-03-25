@@ -2,27 +2,31 @@
 Prepare [X-CUBE-AWS 2.2.1](https://www.st.com/en/embedded-software/x-cube-aws.html) For Quick Connect using the [B-L4S5I-IOT01A](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) board
 
 ## Prerequisite
-***[STM32CubeIDE](https://www.st.com/stm32cubeide)***
+**[STM32CubeIDE](https://www.st.com/stm32cubeide)**
 - Make seure to use rev 1.8.0
 
-***[STM32CubeProgrammer](https://www.st.com/stm32cubeprog)***
+**[STM32CubeProgrammer](https://www.st.com/stm32cubeprog)**
 
-***[Python](https://www.python.org/).*** You need to install pyserial and boto3
+**[Python](https://www.python.org/).**
+
+- NOTE: When installing Python make sure to install pip by selecting pip under Optional Features
+-	NOTE: When installing Python make sure to select 'Add Python to the Path' during installation.
+- You need to install pyserial and boto3
 
 ```
 pip install pyserial
 pip install boto3
 ```
 
-***[Create an IAM user in your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)***
+**[Create an IAM user in your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)**
 - You need the **Access_Key** and **Secret_Key**. ***(Keep them safe and don't share)***
 
-***Wi-Fi network***
+**Wi-Fi network**
 - You need 2.4 GHz
 
-***[B-L4S5I-IOT01A](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) board***
+**[B-L4S5I-IOT01A](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) board**
 
-***This was tested on Windows 10 only***
+***NOTE: This was tested on Windows 10 only***
 
 ## Get the firmware packs
 - Download and extreact [X-CUBE-AWS 2.2.1](https://www.st.com/en/embedded-software/x-cube-aws.html)
@@ -33,14 +37,18 @@ pip install boto3
 
 ## Apply the patch
 - Navigate to **X_CUBE_AWS_2.2.1_QC_Patch**
-- run Python **apply_patch.py**
+- Apply the patch
+ 
+```
+python .\apply_patch.py
+```
 
 <img width="1025" alt="run_apply_patch" src="https://user-images.githubusercontent.com/41168224/160037873-c038bc95-ef63-41e6-a002-916cb34d5220.png">
 
 ## Open the projects
 - Open [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html) new work space
 
-- Click Browse
+- Click **Browse...**
 
 <img width="432" alt="cube_ide_browse" src="https://user-images.githubusercontent.com/41168224/160032757-5255098b-a126-4717-bcc7-72d5a55721bc.png">
 
@@ -56,14 +64,14 @@ pip install boto3
 ![information_center](https://user-images.githubusercontent.com/41168224/160014723-d65da8b6-dc9b-405d-8c0b-19bdd112a4a2.png)
 
 - click **Import projects** 
-- 
+
  ![import_project_1](https://user-images.githubusercontent.com/41168224/160014837-5a3b7527-eccc-4b69-a283-079a95c8cd7b.png)
 
 - Import the projects present in the **\Projects\B-L4S5I-IOT01A\Applications** directory
 
 <img width="919" alt="cube_ide_select_folder" src="https://user-images.githubusercontent.com/41168224/160032821-99b75e95-b4dd-4706-9290-63b86987e14e.png">
 
-- Click ***Finish***
+- Click **Finish**
 ![import_project_2](https://user-images.githubusercontent.com/41168224/160015124-eb12137d-14f8-4fa2-9691-0bda62cbd4a1.png)
 
 ## Configure and build the projects
@@ -102,12 +110,33 @@ pip install boto3
 > 4- aws_demos
 
 ## Run the Quick Connect script
-- Switch to ***STM32CubeExpansion_Cloud_AWS_V2.2.1\STM32_AWS_QuickConnect*** directory
+- Switch to ***STM32CubeExpansion_Cloud_AWS_V2.2.1\STM32_AWS_QuickConnect\Scripts*** directory
 
 ![STM32_AWS_QuickConnect](https://user-images.githubusercontent.com/41168224/160022982-bb8a70a8-86e4-4ef6-947a-cc4e9b866fa6.png)
 
-- Folow the [readme.txt](https://github.com/SlimJallouli/X_CUBE_AWS_2.2.1_QC_Patch/blob/main/STM32_AWS_QuickConnect/readme.txt)
+- Edit **Config.txt**
 
+![config_txt](https://user-images.githubusercontent.com/41168224/160041842-39f315db-0b87-4ed5-9c55-7ae04a644144.png)
+
+![config](https://user-images.githubusercontent.com/41168224/160042184-c9af15c8-585a-47e0-84c1-0a0465a1ad52.png)
+
+***NOTE: The Wi-Fi SSID and PASSWORD are not used in this version of Quick Connect***
+
+***NOTE: Region should be the same as in the enpoint (us-east-2) as in the example below***
+
+```
+#define clientcredentialMQTT_BROKER_ENDPOINT         "xzy-ats.iot.us-east-2.amazonaws.com"
+```
+
+***More details can be found in [readme.txt](https://github.com/SlimJallouli/X_CUBE_AWS_2.2.1_QC_Patch/blob/main/STM32_AWS_QuickConnect/readme.txt)***
+
+- Make sure your board is connected to your computer over USB. Make sure to use the ST-Link USB port
+
+- Execute the **Quick Connect** script
+
+```
+python .\STM32_AWS_QuickConnect.py
+```
 
 <img width="855" alt="run_qc" src="https://user-images.githubusercontent.com/41168224/160037963-737b9363-d5b3-4b57-b0ba-78dae16cd65a.png">
 

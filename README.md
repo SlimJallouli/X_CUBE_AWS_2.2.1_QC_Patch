@@ -20,7 +20,43 @@ pip install boto3
 
 **[Create an IAM user in your AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)**
 - You need the **Access_Key** and **Secret_Key**. ***(Keep them safe and don't share)***
+- Below is the commanded policy for your IAM user. Replace **REGION_NAME** with the desired region for the device (example: us-east-2).
 
+```
+{
+    	"Version": "2012-10-17",
+    	"Statement": [
+        	{
+            	"Sid": "VisualEditor0",
+        	    "Effect": "Allow",
+	            "Action": [
+                	"iot:DetachThingPrincipal",
+                	"iot:CreateThing",
+                	"iot:DeleteThing",
+                	"iot:AttachThingPrincipal",
+                	"iot:DetachPolicy",
+                	"iot:DeleteCertificate",
+                	"iot:AttachPolicy",
+                	"iot:RegisterCertificateWithoutCA",
+                	"iot:CreatePolicy",
+                	"iot:ListAttachedPolicies",
+                	"iot:DescribeEndpoint",
+                	"iot:DeletePolicy",
+                	"iot:ListThingPrincipals",
+                	"iot:UpdateCertificate"
+            	],
+            	"Resource": "*",
+            	"Condition": {
+        	        "StringEquals": {
+	                    "aws:RequestedRegion": "REGION_NAME"
+                	}
+        	    }
+	        }
+	    ]
+	}
+ ```
+ 
+ 
 **Wi-Fi network**
 - You need 2.4 GHz
 
@@ -37,8 +73,15 @@ pip install boto3
 
 ## Apply the patch
 - Navigate to **X_CUBE_AWS_2.2.1_QC_Patch**
-- Apply the patch
- 
+
+![QC_Patch](https://user-images.githubusercontent.com/41168224/160170716-2efcb0b5-c7b8-4a0f-bb35-239ad5e1d7df.png)
+
+- Apply the patch. You can open a PowerShell Window by going to ***File->Open Windows PowerShell***
+
+ ![PowerShell](https://user-images.githubusercontent.com/41168224/160171023-a3df1002-f406-406d-9960-aee7eeff866c.png)
+
+- Type the following command
+
 ```
 python .\apply_patch.py
 ```
@@ -63,7 +106,7 @@ python .\apply_patch.py
 
 ![information_center](https://user-images.githubusercontent.com/41168224/160014723-d65da8b6-dc9b-405d-8c0b-19bdd112a4a2.png)
 
-- click **Import projects** 
+- Click **Import projects** 
 
  ![import_project_1](https://user-images.githubusercontent.com/41168224/160014837-5a3b7527-eccc-4b69-a283-079a95c8cd7b.png)
 
@@ -128,9 +171,11 @@ python .\apply_patch.py
 #define clientcredentialMQTT_BROKER_ENDPOINT         "xzy-ats.iot.us-east-2.amazonaws.com"
 ```
 
-***More details can be found in [readme.txt](https://github.com/SlimJallouli/X_CUBE_AWS_2.2.1_QC_Patch/blob/main/STM32_AWS_QuickConnect/readme.txt)***
-
 - Make sure your board is connected to your computer over USB. Make sure to use the ST-Link USB port
+
+- Open a new PowerShell window
+
+![PowerShell_2](https://user-images.githubusercontent.com/41168224/160171988-b6150c12-f37f-47bd-9205-b57efb609cdf.png)
 
 - Execute the **Quick Connect** script
 

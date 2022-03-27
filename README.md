@@ -9,7 +9,7 @@ The script will:
 - Flash the firmwares required by X_CUBE_AWS_2.2.1 in the correct order
 	- **FLASH_OptionBytes**  : Sets the STM32L4 optuin bytes as required by X_CUBE_AWS_2.2.1
 	- **STSAFE_Provisioning**: Provision STSAFE
-	- **aws_demos**          : Main application (a combined binary file that contains SBSFE and the main application that connects to AWS)
+	- **aws_demos**          : Main application (a combined binary file that contains SBSFU and the signed main application that connects to AWS)
 	
 - Retreive the device certificate from STSAFE
 	

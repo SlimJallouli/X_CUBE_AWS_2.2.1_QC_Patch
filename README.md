@@ -1,5 +1,31 @@
-# X_CUBE_AWS_2.2.1 Quick Connect
+# X_CUBE_AWS_2.2.1 Quick Connect Patch
 Prepare [X-CUBE-AWS 2.2.1](https://www.st.com/en/embedded-software/x-cube-aws.html) For Quick Connect using the [B-L4S5I-IOT01A](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) board
+
+## What is X_CUBE_AWS_2.2.1 Quick Connect?
+X_CUBE_AWS_2.2.1 Quick Connect is a script that automates most of the steps required to connect [B-L4S5I-IOT01A](https://www.st.com/en/evaluation-tools/b-l4s5i-iot01a.html) board and [X-CUBE-AWS 2.2.1](https://www.st.com/en/embedded-software/x-cube-aws.html) to AWS.
+
+The script will:
+
+- Flash the firmwares required by X_CUBE_AWS_2.2.1 in the correct order
+	- **FLASH_OptionBytes**  : Sets the STM32L4 optuin bytes as required by X_CUBE_AWS_2.2.1
+	- **STSAFE_Provisioning**: Provision STSAFE
+	- **aws_demos**          : Main application (a combined binary file that contains SBSFE and the main application that connects to AWS)
+	
+- Retreive the device certificate from STSAFE
+	
+- Retreive the the thing name
+	
+- Register the device with AWS:
+	- Create a Thing
+	- Upload the certificate
+	- Attach certificate to thing
+	- Attach policy to the certificate
+
+## What is X_CUBE_AWS_2.2.1 Quick Connect Patch?
+- The **X_CUBE_AWS_2.2.1 Quick Connect Patch** will remove the projects that are not needed by this Quick Connect to work. This to remove the confusion on which projects you need to import and build with STM32CubeIDE
+- Copy the Quick Connect script
+- Chnage the aws_demos **main.c** file to be compatible with X_CUBE_AWS_2.2.1 Quick Connect
+
 
 ## Prerequisite
 **[STM32CubeIDE](https://www.st.com/stm32cubeide)**
